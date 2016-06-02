@@ -1,7 +1,7 @@
 - connection: looker_dev
 
 - include: "*.view.lookml"       # include all the views
-- include: "*.dashboard.lookml"  # include all the dashboards
+- include: "dwell_dashboard.dashboard.lookml"  # include all the dashboards
 
 - explore: appliances
 #   joins:

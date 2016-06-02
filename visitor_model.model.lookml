@@ -1,7 +1,7 @@
 - connection: looker_dev
 
 - include: "*.view.lookml"       # include all views in this project
-- include: "*.dashboard.lookml"  # include all dashboards in this project
+- include: "visitor_dashboard.dashboard.lookml"  # include all dashboards in this project
 
 # # Select the views that should be a part of this model,
 # # and define the joins that connect them together.
